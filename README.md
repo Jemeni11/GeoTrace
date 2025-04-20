@@ -2,6 +2,8 @@
 
 <br />
 <div align="center">
+  <a href="https://github.com/Jemeni11/GeoTrace"><img src="public/assets/logo.png" alt="Logo" width="128" height="128"></a>
+
   <h3 align="center">GeoTrace</h3>
   <p align="center">
     A React app for tracking any IP on a live map with key info.
