@@ -10,7 +10,7 @@ import {
 } from "react-leaflet";
 
 const myIcon = L.icon({
-  iconUrl: "./assets/images/icon-location.svg",
+  iconUrl: "./icon-location.svg",
 });
 
 function LocationMarker({
@@ -61,7 +61,7 @@ function App() {
         setPosition({ lat: data.location.lat, lng: data.location.lng });
       } else {
         console.error(res);
-        alert(`${res.status} error: ${res.statusText}`);
+        alert(`${res.status} error: ${res.statusText || "Error"}`);
       }
     },
     [IP_GEOLOCATION_API_KEY]
@@ -92,7 +92,7 @@ function App() {
           />
           <button type="submit">
             <img
-              src="/assets/images/icon-arrow.svg"
+              src="/icon-arrow.svg"
               alt="Search Button"
               width="11"
               height="14"
