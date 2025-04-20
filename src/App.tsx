@@ -80,7 +80,7 @@ function App() {
   return (
     <div className="App">
       <div className="Header">
-        <p>GeoTrace</p>
+        <h1>GeoTrace</h1>
         <form onSubmit={formSubmitHandler} className="IP_InputContainer">
           <input
             type="text"

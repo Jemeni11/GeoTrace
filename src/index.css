@@ -73,7 +73,7 @@ h6 {
   text-align: center;
 }
 
-.Header > p {
+.Header > h1 {
   font-size: 1.5rem;
   font-weight: 500;
   /* padding: 1.25rem 0; */
