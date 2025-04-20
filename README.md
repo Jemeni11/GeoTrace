@@ -27,7 +27,7 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 
 GeoTrace is a responsive IP address tracker built with React that lets users look up any IP address or domain to view key info and its location on a map, using the IP Geolocation API and LeafletJS
 
-[Live link](https://jemeni-ip-tracker.netlify.app/)
+[Live link](https://jemeni-geotrace.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
