@@ -1,102 +1,73 @@
-# ReactViteTS (Vite + React + TypeScript + TailwindCSS + Prettier + ESLint)
+<a id="readme-top"></a>
+
+<br />
+<div align="center">
+  <h3 align="center">GeoTrace</h3>
+  <p align="center">
+    A React app for tracking any IP on a live map with key info.
+    <br />
+    <a href="https://github.com/Jemeni11/GeoTrace"><strong>Explore the repo »</strong></a>
+    <br />
+  </p>
+</div>
+
+Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Built with](#built-with)
+- [Contributing](#contributing)
+- [Wait a minute, who are you?](#wait-a-minute-who-are-you)
 
 ## Introduction
 
-Hey!
-This is a Vite template with the following installed:
+This is a solution to the [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+GeoTrace is a responsive IP address tracker built with React that lets users look up any IP address or domain to view key info and its location on a map, using the IP Geolocation API and LeafletJS
+
+[Live link](https://jemeni-ip-tracker.netlify.app/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Features
+
+Users should be able to:
+
+- View the optimal layout for each page depending on their device's screen size
+- See hover states for all interactive elements on the page
+- See their own IP address on the map on the initial page load
+- Search for any IP addresses or domains and see the key information and location
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Built with
 
 - [Vite 6.1.0](https://vite.dev/)
 - [React 19.0.0](https://react.dev/)
 - [Typescript 5.7.2](https://www.typescriptlang.org/)
-- [TailwindCSS 4.0.6](https://tailwindcss.com/)
 - [Prettier 3.5.1](https://prettier.io/)
-- [prettier-plugin-tailwind 0.6.11](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
 - [ESLint 9.19.0](https://eslint.org/)
 
-## Installation
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You can either:
+## Contributing
 
-- Clone the repo and run `pnpm install` in the root directory
+Contributions are welcome! If you'd like to improve GeoTrace, please feel free to submit a pull request.
 
-  Bash:
-  
-  ```bash
-  git clone https://github.com/Jemeni11/ReactViteTS.git && cd ReactViteTS && pnpm install
-  ```
-
-  Powershell:
-  
-  ```powershell
-  git clone https://github.com/Jemeni11/ReactViteTS.git; cd ReactViteTS; pnpm install
-  ```
-
-  <br/>
-  <br/>
-
-- Or click on the `use this template` button and pick whatever option you prefer
-
-  <br/>
-  <br/>
-
-  <img width="945" alt="Screenshot of this repo's github page" src="https://github.com/user-attachments/assets/bc779b76-8c38-451f-91f3-6712ebff2860">
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Wait a minute, who are you?
 
-Hello there! I'm Emmanuel Jemeni, and I work as a Frontend Developer. You can find me on various platforms:
+Hello there! I'm Emmanuel Jemeni, and I am a Frontend Developer.
+
+You can find me on various platforms:
 
 - [LinkedIn](https://www.linkedin.com/in/emmanuel-jemeni)
 - [GitHub](https://github.com/Jemeni11)
 - [Twitter/X](https://twitter.com/Jemeni11_)
 - [Bluesky](https://bsky.app/profile/jemeni11.bsky.social)
 
-## Vite-Specific Information
+If you'd like, you can support me on [GitHub Sponsors](https://github.com/sponsors/Jemeni11/)
+or [Buy Me A Coffee](https://www.buymeacoffee.com/jemeni11).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-### Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
